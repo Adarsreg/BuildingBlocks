@@ -11,6 +11,15 @@ const App: React.FC = () => {
   return (
     <div>
       <Navbar links={links} />
+      <div className='Animation'>
+        ANIMATION
+      </div>
+      <div className='Company'>
+        BUILDING BLOCKS
+
+        ONLINE SERVICES?
+        COME TO US
+      </div>
     </div>
   );
 };
