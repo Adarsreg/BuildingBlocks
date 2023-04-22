@@ -1,0 +1,38 @@
+.animation-container {
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.road {
+    animation: move-road 10s linear infinite;
+    background-color: #757575;
+    height: 1000px;
+    position: absolute;
+    top: 0;
+    transform-origin: 50% 50%;
+    width: 100vw;
+    z-index: -1;
+}
+
+@keyframes move-road {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(-1000px);
+    }
+}
+
+body {
+    background-color: rgb(243, 243, 243);
+}
+
+
+
+.content {
+    color: rgb(10, 1, 20);
+    text-align: center;
+    padding: 20px;
+}
